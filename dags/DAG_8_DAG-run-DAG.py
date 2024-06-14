@@ -14,3 +14,4 @@ with DAG(dag_id='DAG_8_DAG-run-DAG',
     task2 = TriggerDagRunOperator(task_id='task2', trigger_dag_id='DAG_9_DAG-runned')
 
     task1 >> task2
+
